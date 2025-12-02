@@ -1,0 +1,249 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upperbar {
+    height: 2.5rem;
+    width: 100%;
+    background-color: rgb(2, 2, 92);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.upperbar .left-side,
+.upperbar .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upperbar .left-side {
+    gap: 8px;
+}
+
+.upperbar .right-side {
+    gap: 10px;
+}
+
+#LoginBtn {
+    background-color: #00b7c3;;
+    border: 2px solid  #00b7c3;;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#SearchBtn {
+    border: 2px solid white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#hosImg img,
+#callLogo img {
+    height: 3rem;
+    width: auto;
+}
+
+#Contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#callLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#innerText {
+    font-size: 12px;
+    line-height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#Appointment {
+    background-color:  #00b7c3;;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 30px; 
+}
+
+#Location {
+    background-color: white;
+    border-radius: 50px;
+    border: 2px  #00b7c3 solid;
+    color: lightblue;
+    padding: 10px 30px; 
+}
+
+.types {
+    background-color: rgba(250, 235, 215, 0.69);
+    height: 5rem;
+    width: 100%;
+    border: 2px  #00b7c3 solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;     
+    overflow-x: auto;
+}
+
+.innerTypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 1.5rem;                    
+}
+
+.img {
+    height: 3rem ;
+    width: 3rem;
+    object-fit: contain;
+}
+
+.docimg {
+    display: flex;
+    height: 25rem;
+    width: 100%;
+    padding-top: 1rem;
+    
+}
+
+.textDoc {
+    margin-left: 14rem;
+    width: 45%;
+    border-radius: 3px;
+}
+
+.assurances {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.assureIcon {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;       
+    text-align: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.assureIcon img {
+    width: 3.5rem;     
+    height: 3.3rem;
+    border-radius: 50%; 
+    padding: 10px;
+    border: 2px solid #d1d1d1;  
+    object-fit: contain;
+}
+
+.para {
+    padding-top: 0.9rem;
+}
+
+.buttonss {
+    display: flex;
+    gap : 2rem;
+}
+
+.btnss {
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+#btns1 {
+    border: 2px lightblue solid;
+}
+
+#btns2 {
+    background-color:  #00b7c3;;
+    color: white;
+    border: 2px  #00b7c3;;
+}
+ 
+.ImgDoc {
+    display: flex;
+    width: 50%;
+    height : 25rem;
+}
+
+#Sp {
+    text-align: center;
+}
+.ourspecialities {
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    height: 10rem;
+    width: 60%;
+    padding-top: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.speci {
+    display: flex;
+    object-fit: contain;
+    gap: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 20px;
+    
+}
+
+.speci img {
+    width: 2.8rem;
+    height: 2.8rem;
+    object-fit: contain;
+}
+
+.spid {
+    display: flex;
+    flex-direction: column;
+}
+
+.view-btn {
+    position: absolute;
+    left: 50%;
+    bottom: -20px;           
+    padding: 12px 35px;
+    background: #00b7c3;
+    color: white;
+    border: none;
+    border-radius: 50px;     
+    font-size: 16px;
+}
+
